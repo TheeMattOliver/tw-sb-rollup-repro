@@ -1,15 +1,17 @@
 # tw-sb-rollup-repro
 
-`yarn`
+1. Install `yarn`
 
-`yarn storybook` 👍
+2. Edit `/src/Thing.tsx` and add some Tailwind classes
 
-`yarn build` 👎
+3. Run storybook `yarn storybook` 👍
+
+4. Build with Rollup `yarn build` 👎
 
 Error:
 
 ```
-$ NODE_ENV=production npx tailwindcss -o ./dist/tw.css --minify
+$ NODE_ENV=production npx tailwindcss -o ./dist/tailwind.css --minify
 /my-project/node_modules/tailwindcss/peers/index.js:91395
         throw new Error('PostCSS plugin ' + plugin.postcssPlugin + ' requires PostCSS 8.\n' + 'Migration guide for end-users:\n' + 'https://github.com/postcss/postcss/wiki/PostCSS-8-for-end-users');
               ^
