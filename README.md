@@ -1,12 +1,14 @@
 # tw-sb-rollup-repro
 
-1. Install `yarn`
+1. `git clone https://github.com/TheeMattOliver/tw-sb-rollup-repro.git`
 
-2. Edit `/src/Thing.tsx` and add some Tailwind classes
+2. Install deps `cd tw-sb-rollup-repro && yarn`
 
-3. Run storybook `yarn storybook` 👍
+3. Edit `/src/Thing.tsx` and add some Tailwind classes
 
-4. Build with Rollup `yarn build` 👎
+4. Run storybook `yarn storybook` 👍
+
+5. Build with Rollup `yarn build` 👎
 
 Error:
 
